@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Present</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="title">送给可爱又活泼的阿娇小朋友！</string>
+	<string name="clickme">请点我！</string>
+	<string name="putaway">请点击花收下！</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faretale">
+        <item>曾经，有一个国家\n这个国家富饶而且美丽\n 那就是香蕉王国。</item>
+        <item>但是\n王子却为了等待他的公主\n而一直沉睡着。</item>
+        <item>终于有一天\n上天带给了这个国家\n以福音</item>
+        <item>香蕉公主\n这位美丽善良、活泼开爱的姑娘\n来到了这个国家</item>
+        <item>虽然公主悉心照料\n但是王子却始终没有苏醒\n一天又一天...</item>
+        <item>但是\n公主始终都没有放弃\n因为，她坚信</item>
+        <item>总有一天\n上天会为她的这份真心感动\n就这样，她坚守着...</item>
+        
+        <item>终于有一天\n公主的那份坚持和信念\n感动了菩萨</item>
+    	<item>虽然\n菩萨虽然答应了要唤醒王子\n却也提出了几个条件</item>
+    	
+    	<item>如需了解菩萨的条件\n敬请请查阅聊天信息\nO(∩_∩)O~</item>
+    	
+    	<item>从此\n公主为了唤醒沉睡的王子\n踏上了艰难旅程</item>	
+    	<item>最后\n因为公主的不懈努力和王子的坚贞不渝\n终于感动了菩萨</item>
+    	<item>最终成就了一段美满的婚姻!</item>        
+        <item>从此\n香蕉公主和香蕉王子过上了\n幸福美满的生活！</item>
+                
+    </string-array>
+</resources>

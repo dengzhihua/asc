@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="confesslove">
+        <item>何姣\n生日快乐！</item>
+        <item>在这特别的一天里\n我还有一份特别的礼物\n 要送给你！</item>
+        <item>那颗红心\n就是我对你爱的宣言\n我喜欢你，何姣</item>
+        <item>不知不觉\n你已经独自走过了25载\n而接下来的日子\n就让我们一起承担</item>
+        <item>如果你愿意\n我愿像香蕉王子一样\n恪守我们的爱情</item>
+        <item>直到\n天荒地老、海枯石烂！\n天公做证</item>
+        <item>让我们续写\n王子与公主的传奇故事\n直到永远...</item>
+        
+        <item>请慎重\n点击红心表示接受哦\nO(∩_∩)O~</item>
+    </string-array>
+</resources>

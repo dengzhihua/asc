@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.present.MainActivity$PlaceholderFragment" >
+	<TextView android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    
+    <FrameLayout android:id="@+id/layoutParent" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title">
+        
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="0dip"
+	        android:background="@drawable/background"
+	        android:gravity="bottom"
+	        android:orientation="vertical"
+	        android:padding="0dip" >
+			
+			<FrameLayout android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:orientation="horizontal"
+			    android:gravity="bottom">
+			    
+			    <LinearLayout android:id="@+id/fengchewrap"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="bottom|right">
+					<ImageView android:id="@+id/fengche"	            
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/realfengche_0"/>
+				</LinearLayout>
+				
+			    <LinearLayout android:id="@+id/mewrap"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        android:layout_gravity="bottom">
+				    <LinearLayout android:id="@+id/wraptext"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content">
+				        <TextView android:id="@+id/showingtext"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:gravity="center"
+						    android:layout_gravity="right"
+						    android:clickable="true"
+						    android:background="@drawable/popselector"
+						    android:text="@string/clickme"/>
+				    </LinearLayout>
+				    <ImageView android:id="@+id/me"
+				        android:layout_width="wrap_content"	        
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/me"
+				        />	
+			           
+			    </LinearLayout>
+			    
+				<RelativeLayout android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="right"
+			        android:layout_gravity="bottom"
+			        android:orientation="horizontal">
+				    
+				    <ImageView android:id="@+id/jiaojiao"
+					        android:layout_width="wrap_content"	        
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="bottom|right"
+					        android:src="@drawable/jiaojiao"/>
+				    <ImageView android:id="@+id/sendflower"
+				        android:layout_width="wrap_content"	        
+				        android:layout_height="wrap_content"
+				        android:layout_alignBottom="@id/jiaojiao"
+				        android:layout_alignLeft="@id/jiaojiao"
+				        android:layout_marginBottom="20dip"
+				        android:visibility="invisible"
+				        android:background="@drawable/sendflower"
+				        />	    
+			    </RelativeLayout>
+			    
+			    <LinearLayout android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="bottom">	
+					<ImageView
+			            android:id="@+id/grassland"
+			            android:layout_width="fill_parent"
+			            android:layout_height="55dip"
+			            android:layout_margin="0dip"
+			            android:padding="0dip"
+			            android:background="@drawable/grassanimation" />
+				</LinearLayout>
+				
+			</FrameLayout>
+	        
+	    </LinearLayout>
+	    <LinearLayout android:id="@+id/fallingparent" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal">
+	       
+	    </LinearLayout>
+		
+		<!-- <com.example.present.views.FallingView2
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent">
+	            
+	    </com.example.present.views.FallingView2> --> 
+	</FrameLayout>
+</RelativeLayout>
